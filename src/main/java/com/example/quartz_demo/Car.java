@@ -9,6 +9,7 @@ public class Car {
     private String id;
     private String door;
     private String color;
+    private String constructorName ;
 
     public Car() {
         this.id = UUID.randomUUID().toString();
