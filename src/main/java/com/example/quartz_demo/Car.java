@@ -2,12 +2,16 @@ package com.example.quartz_demo;
 
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 @Service
 public class Car {
+    private String id;
     private String door;
     private String color;
 
     public Car() {
+        this.id = UUID.randomUUID().toString();
         this.door = "door";
         this.color = "color";
     }
