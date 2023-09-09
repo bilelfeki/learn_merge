@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class QuartzDemoApplication {
 
 	public static void main(String[] args) {
+		Car car=new Car();
+		System.out.println(car.getColor());
 		SpringApplication.run(QuartzDemoApplication.class, args);
 	}
+
 
 }
