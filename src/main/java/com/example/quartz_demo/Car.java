@@ -5,11 +5,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class Car {
     private String door;
-    private String color;
+    private String innerColor;
 
     public Car() {
         this.door = "door";
-        this.color = "color";
+        this.innerColor = "color";
     }
 
     public String getDoor() {
@@ -20,11 +20,11 @@ public class Car {
         this.door = door;
     }
 
-    public String getColor() {
-        return color;
+    public String getInnerColor() {
+        return innerColor;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setInnerColor(String innerColor) {
+        this.innerColor = innerColor;
     }
 }
